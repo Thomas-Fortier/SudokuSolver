@@ -86,7 +86,9 @@ namespace ConsoleSudokuSolver
         /// </summary>
         public void AddValues()
         {
-            Cells[4].Value = 2;
+            #region BoardLayout1
+
+            /*Cells[4].Value = 2;
             Cells[6].Value = 4;
             Cells[8].Value = 8;
 
@@ -129,7 +131,94 @@ namespace ConsoleSudokuSolver
 
             Cells[72].Value = 1;
             Cells[74].Value = 9;
-            Cells[80].Value = 2;
+            Cells[80].Value = 2;*/
+
+            #endregion
+
+            #region BoardLayout2
+
+            /*Cells[2].Value = 8;
+            Cells[3].Value = 2;
+            Cells[6].Value = 9;
+            Cells[8].Value = 3;
+
+            Cells[9].Value = 3;
+            Cells[10].Value = 4;
+            Cells[11].Value = 2;
+            Cells[13].Value = 9;
+            Cells[14].Value = 5;
+            Cells[17].Value = 7;
+
+            Cells[18].Value = 1;
+            Cells[19].Value = 9;
+            Cells[20].Value = 7;
+            Cells[26].Value = 4;
+
+            Cells[29].Value = 5;
+            Cells[30].Value = 3;
+            Cells[31].Value = 1;
+            Cells[32].Value = 2;
+            Cells[33].Value = 4;
+            Cells[34].Value = 7;
+            Cells[35].Value = 9;
+
+            Cells[45].Value = 2;
+            Cells[49].Value = 7;
+            Cells[50].Value = 4;
+            Cells[51].Value = 5;
+
+            Cells[55].Value = 2;
+            Cells[59].Value = 1;
+            Cells[62].Value = 5;
+
+            Cells[64].Value = 7;
+            Cells[68].Value = 6;
+            Cells[69].Value = 8;
+            Cells[70].Value = 9;
+            Cells[71].Value = 1;
+
+            Cells[72].Value = 8;
+            Cells[75].Value = 4;
+            Cells[76].Value = 3;
+            Cells[78].Value = 7;
+            Cells[80].Value = 6;*/
+
+            #endregion
+
+            #region BoardLayout3
+
+            Cells[3].Value = 6;
+            Cells[5].Value = 9;
+            Cells[7].Value = 8;
+
+            Cells[13].Value = 3;
+            Cells[15].Value = 7;
+
+            Cells[19].Value = 1;
+            Cells[24].Value = 4;
+
+            Cells[29].Value = 8;
+            Cells[31].Value = 6;
+            Cells[35].Value = 5;
+
+            Cells[36].Value = 4;
+            Cells[37].Value = 2;
+            Cells[39].Value = 1;
+
+            Cells[51].Value = 2;
+
+            Cells[58].Value = 9;
+            Cells[60].Value = 5;
+            Cells[62].Value = 7;
+
+            Cells[63].Value = 7;
+            Cells[69].Value = 8;
+            Cells[71].Value = 6;
+
+            Cells[72].Value = 1;
+            Cells[77].Value = 3;
+
+            #endregion
         }
 
         /// <summary>

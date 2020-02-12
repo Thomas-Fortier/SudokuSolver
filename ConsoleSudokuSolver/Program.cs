@@ -43,6 +43,7 @@ namespace ConsoleSudokuSolver
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nPress any key to quit...");
             Console.ResetColor();
+            Console.ReadKey();
         }
 
         /// <summary>
