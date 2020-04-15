@@ -3,12 +3,12 @@ The program will solve a Sudoku board with initial values
 
 # Description
 This was an experimental project to create an algorithm that
-can solve a Sudoku board. The type of algorithm.
+can solve a Sudoku board.
 
 The backtracking algorithm does exactly what it sounds like.
 In the case of Sudoku, if at a given point it cannot fill in a cell,
 it will backtrack to a previous cell and change its value until it
-finds a valid solution.
+finds a valid solution using recursion.
 
 # Notes
 Currently, you have to hard code the initial values of the board.
